@@ -6,9 +6,7 @@
 
 .home-card {
   display: flex;
-  flex-direction: column-reverse;
-  background-color: #fff;
-  box-shadow: 0px 4px 20px rgba(red, green, blue, alpha);
+  flex-direction: column-reverse; 
   border-radius: 20px; 
 }
 
@@ -34,8 +32,7 @@
 }
 
 .home-image-container {
-  padding: 50px 15px;
- 
+  padding: 50px 15px; 
 }
 
 .home-image-container svg {
@@ -108,7 +105,6 @@
     flex-direction: row;
     justify-content: space-around;
     padding: calc(((85vh - 480px)/2) - 20px)0;
-
   }
 
   .home-content-container {
