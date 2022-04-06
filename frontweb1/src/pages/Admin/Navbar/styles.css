@@ -42,8 +42,6 @@ ul {
 }
 
 
-
-
 @media (min-width: 1200px) {
   ul {
     justify-content: unset;
