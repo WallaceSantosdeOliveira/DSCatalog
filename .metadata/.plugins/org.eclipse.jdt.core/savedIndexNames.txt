@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\DevCursos\DevSuperior\DSCatalog\.metadata\.plugins\org.eclipse.jdt.core
+159012013.index
+1965174767.index
