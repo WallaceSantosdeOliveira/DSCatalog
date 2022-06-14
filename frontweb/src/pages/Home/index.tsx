@@ -1,15 +1,11 @@
 import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
 import ButtonIcon from 'components/ButtonIcon';
 import { Link } from 'react-router-dom';
-import { isAuthenticated } from 'util/requests';
 
 import './styles.css';
-
 const Home = () => {
   return (
-    <div className="home-container">
-      
-         <h1>{isAuthenticated() ? 'autenticado' : 'NÂO autenticado'}</h1>
+    <div className="home-container">     
 
       <div className="base-card home-card">
         <div className="home-content-container">
