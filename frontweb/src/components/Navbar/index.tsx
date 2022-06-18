@@ -1,16 +1,14 @@
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
 import { Link, NavLink } from 'react-router-dom';
-import { 
-  getTokenData, 
-  isAuthenticated, 
-  removeAuthData,
- } from 'util/requests';
 import history from 'util/history';
 import { useContext, useEffect } from 'react';
 import { AuthContext } from 'AuthContext';
+import { removeAuthData } from 'util/storage';
+import { getTokenData, isAuthenticated } from 'util/auth';
 
 const Navbar = () => {
+  
   const { authContextData, setAuthContextData } = useContext(AuthContext);
 
   useEffect(() => {
